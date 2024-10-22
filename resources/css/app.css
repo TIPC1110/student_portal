@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Hero Section */
+.hero {
+    background-color: #f8f9fa; /* Màu nền nhạt */
+}
+
+/* Features Section */
+.features {
+    background-color: #fff; 
+}
+
+.feature-box {
+    padding: 30px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+}
+
+/* ... (Các CSS khác) ... */
