@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $notifications = auth()->user()->notifications; // Lấy danh sách notifications của user hiện tại
+
+        return view('home', compact('notifications'));
     }
 }
